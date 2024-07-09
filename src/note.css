@@ -1,0 +1,65 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.note {
+  background: #fafafa;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 1rem 0;
+  width: 400px;
+}
+
+.note p {
+  margin: 0.5rem 0;
+}
+
+.note-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.note-username {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.note-subjectCode {
+  font-size: 1rem;
+  color: #555;
+}
+
+button {
+  background-color: rgb(78, 78, 250);
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(67, 67, 211);
+}
